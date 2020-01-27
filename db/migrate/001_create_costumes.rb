@@ -16,6 +16,8 @@ class CreateCostumes < ActiveRecord::Migration
       price
       size
       image_url
+      created_at
+      updated_at
     end
   end
   
